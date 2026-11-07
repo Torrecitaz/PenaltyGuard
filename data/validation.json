@@ -1,0 +1,32 @@
+{
+  "missingSourceLines": [],
+  "uniqueIds": true,
+  "sourcePages": 51,
+  "numberedArticles": 90,
+  "documentBlocks": 3,
+  "checks": [
+    "numeration",
+    "source line coverage",
+    "original line order",
+    "disciplinary references"
+  ],
+  "browserChecks": [
+    "article 35 search",
+    "expand article",
+    "favorite persistence after HMR",
+    "direct article route",
+    "next article",
+    "copy link action",
+    "mobile menu",
+    "sanction subject and type filters",
+    "empty search state",
+    "desktop and 390px layouts",
+    "FAQ category and expansion",
+    "light and dark themes"
+  ],
+  "limits": [
+    "Tables retain extracted text; official visual layout available in PDF",
+    "Full institutional editorial validation remains external",
+    "No public deployment performed"
+  ]
+}
