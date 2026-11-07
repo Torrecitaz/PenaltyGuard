@@ -26,7 +26,34 @@
   ],
   "limits": [
     "Tables retain extracted text; official visual layout available in PDF",
-    "Full institutional editorial validation remains external",
-    "No public deployment performed"
+    "Full institutional editorial validation remains external"
+  ],
+  "deployment": {
+    "provider": "Netlify",
+    "url": "https://penaltyguard-ligasan.netlify.app/",
+    "siteId": "adfe1e45-7ec2-4ba3-bdf8-940ddf23e95f",
+    "repository": "https://github.com/Torrecitaz/PenaltyGuard",
+    "branch": "main",
+    "commit": "184dea9145ffe0b3d83c3d520fbbbaa2bb51fa22"
+  },
+  "productionHttpChecks": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 705
+    },
+    {
+      "path": "/reglamento/art-35",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 705
+    },
+    {
+      "path": "/reglamento.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 537708
+    }
   ]
 }

@@ -53,7 +53,13 @@ Inicio; lector por capítulos; artículos expandibles; anterior/siguiente; enlac
 3. Se incluye `vercel.json` con rutas SPA y acceso a archivos estáticos.
 4. Ejecuta el despliegue y verifica los enlaces directos y el PDF.
 
-No se ha realizado un despliegue público ni se ha creado una URL de producción. No hay credenciales de Vercel o Netlify configuradas en el proyecto.
+Publicado en producción: https://penaltyguard-ligasan.netlify.app/
+
+Repositorio: https://github.com/Torrecitaz/PenaltyGuard
+
+Netlify está conectado a la rama `main` y ejecuta `pnpm build`, publicando `dist/`. Los cambios enviados a `main` generan despliegues automáticos. Panel: https://app.netlify.com/projects/penaltyguard-ligasan/overview
+
+Despliegue inicial verificado: commit `184dea9145ffe0b3d83c3d520fbbbaa2bb51fa22`.
 
 ## Alcance
 
